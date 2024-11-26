@@ -4,7 +4,6 @@ int main() {
     float distancia;
     char continuar;
 
-    printf("=== Leitura de Sensores de Distancia ===\n");
     printf("O programa registra distancias ate que uma menor que 10 cm seja detectada.\n");
 
     do {
