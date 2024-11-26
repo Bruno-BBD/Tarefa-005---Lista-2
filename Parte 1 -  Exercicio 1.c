@@ -18,11 +18,11 @@ int main() {
         }
 
         if (temperatura < 20.0) {
-            printf("ALERTA: Temperatura muito baixa (%.2f°C)! Ajustando ventilação...\n", temperatura);
+            printf("ALERTA: Temperatura muito baixa (%.2fÂ°C)! Ajustando ventilacao...\n", temperatura);
         } else if (temperatura > 25.0) {
-            printf("ALERTA: Temperatura muito alta (%.2f°C)! Ajustando ventilação...\n", temperatura);
+            printf("ALERTA: Temperatura muito alta (%.2fÂ°C)! Ajustando ventilacao...\n", temperatura);
         } else {
-            printf("Temperatura dentro da faixa segura (%.2f°C).\n", temperatura);
+            printf("Temperatura dentro da faixa segura (%.2fÂ°C).\n", temperatura);
         }
 
         sleep(1);
